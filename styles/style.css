@@ -32,7 +32,7 @@ div.calculator {
     width: 600px;
     height: auto;
     display: grid;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 8fr 8fr;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -131,6 +131,28 @@ section.division {
     background:rgba(255, 255, 255, 0.5);
 }
 
+div.mega-calculator {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.mega {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 4px rgba(255, 255, 255, 0.8) solid;
+    border-radius: 50%;
+    padding: 25px;
+    background:rgba(255, 255, 255, 0.5);
+}
+
 h3 {
     font-size: .8rem;
 }
@@ -158,6 +180,51 @@ div.results {
     min-width: 25px;
     border-radius: 3px;
 
+}
+
+button.dropdown-button {
+    background: black;
+    color: white;
+    border: 1px black solid;
+    border-radius: 3px;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+div.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%px;
+
+}
+
+.dropdown-content button {
+    background: black;
+    color: white;
+    border: 1px black solid;
+    border-radius: 3px;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.dropdown-content button:hover {
+    background: white;
+    color: black;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .gutter-right {

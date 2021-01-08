@@ -81,3 +81,6 @@
 
 drop down menu instead of seperate 
 e.target.value
+
+testing is like a smoke alarm
+it creates expectation for our code-
