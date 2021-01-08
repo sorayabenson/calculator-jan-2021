@@ -78,3 +78,6 @@
 <!-- -5 Display the result -->
     -how: connect result box to the answer
     -Validation: you see it.
+
+drop down menu instead of seperate 
+e.target.value
