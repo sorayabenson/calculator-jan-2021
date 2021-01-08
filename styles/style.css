@@ -157,6 +157,12 @@ h3 {
     font-size: .8rem;
 }
 
+h2.mega-calculator {
+    margin: 5px;
+    font-weight: 300;
+
+}
+
 input {
     width: 65px;
     height: 25px;
@@ -179,7 +185,9 @@ div.results {
     height: 25px;
     min-width: 25px;
     border-radius: 3px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button.dropdown-button {
